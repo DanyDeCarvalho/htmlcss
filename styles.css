@@ -1,0 +1,337 @@
+html,
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0; 
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+	margin-left: 5%;
+	padding-bottom:5%;
+	padding-top: 2%; 
+}
+.top{
+	background-color: #e4ecff;
+	height: 5%;
+	font-size: 15pt;
+	padding-top: 1%; 
+	color :#1E90FF;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.mainpage{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 89%;
+}
+.header{
+	box-shadow: -0em 0 .6em  #C8C8C8;	
+	flex-basis: 100%;
+	height: 3%;
+}
+
+.select{
+	margin: 5px;
+	width: 10%;
+	height: 80%;
+}
+
+.select2{
+	margin: 5px;
+	margin-left: 70%;
+	width: 5%;
+	height: 80%;
+	border: none;
+	background-color: #04AA6D;
+	color: #ffffff;
+	border-radius: 5px;
+	font-size: 17px;
+	border: none;
+	padding: 6px;
+}
+
+.org{
+	margin-top: -3%;
+	margin-left:88%;
+}
+
+.user{
+	margin-top: -3%;
+	margin-left:96%;
+	height: 25px;
+  	width: 25px;
+  	border-radius: 50%;
+  	background-color: #a365f6;
+  	text-align: center;
+  	color: white;
+}
+
+.chevron{
+
+	margin-top: -1.4%;
+	margin-left:98%;
+}
+
+.nav{
+	background-color: #C8C8C8;
+	flex-basis: 11%;
+}
+
+.title{
+	color: #a365f6;
+	font-weight: bold;
+	padding: 8% 10%;
+}
+
+.under{
+	padding: 0% 10%;
+}
+.support,
+.other{
+	color: #a365f6;
+	font-weight: bold;
+	padding: 0% 10%;
+}
+
+.support{
+	margin-top: 10%;
+}
+
+h1 {
+	text-align: center;
+}
+h2
+{
+	padding-left: 20%;
+}
+
+.one,
+.both,
+.number{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  color: white;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.one{
+	margin-top: 5px;
+}
+
+.both{
+	margin-top: 25px;
+}
+
+.bucketName{
+	margin-left: 20%;
+	height: 3%;
+	width: 60%;
+	color:rgba(0,0,0,0.2);
+
+}
+.main{
+	flex-basis: 100%;
+	height: 90%;
+}
+
+.textName{
+	margin-left: 20%;
+	font-size: 8pt;
+	color:rgba(0,0,0,0.5);
+}
+
+.textRegion{
+	margin-left: 20%;
+	font-size: 10pt;
+	margin-top: -1%;
+}
+
+.contryPologne,
+.contryAm,
+.contryFrance{
+	margin-left: 20%;
+	width: 10%;
+	height: 5%;
+	background-color: white;
+	border: solid 1px rgba(0,0,0,0.2);
+}
+
+
+
+.contryAm,
+.contryPologne{
+	margin-left:2%;
+}
+.imgFrance,
+.imgAm,
+.imgPologne
+ {
+	width: 30px;
+	height: 30px;
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.imgFrance{
+	margin-left: 19%;
+	margin-top: 1%; 
+}
+
+.imgAm,
+.imgPologne{
+	margin-left: 2.5%;
+	margin-top: 1%; 
+}
+
+input:hover {
+	border: solid 1px #a365f6;
+}
+.privatePublic{
+	border: solid 1px rgba(0,0,0,0.2);
+	margin-left: 20%;
+	height: 10%;
+	width: 60%;
+	border-radius: 1%;
+}
+
+.textPP{
+	margin-left: 2%;
+	width: 60%;
+	margin-top: -2.2%;
+	text-align: justify;
+}
+
+.Public,
+.private{
+	margin-left: 80%;
+	margin-top: 2%;
+
+}
+
+.estimated{
+	width: 60%;
+	margin-left: 20%;
+}
+
+.textEstimated{
+	font-size: 16.5pt;
+	text-align: justify;
+}
+
+.alert{
+	background-color: rgba(255,0,0,0.2);
+	color: rgba(255,0,0,0.6);
+	text-align: justify;
+	height: 50%;
+	border-radius: 10px;	
+}
+
+.textAlert{
+	padding:2% 2% 2% 10%;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+th,
+td
+{
+    border: 1px solid black;
+    width: 30%; 
+    text-align: left;
+    padding-left: 1%;
+    border: solid 1px rgba(0,0,0,0.3);
+}
+
+.div1{
+	margin-left: 20%;
+	width: 36%;
+}
+.div2{
+	width: 30%;
+	margin-top: -16.8%;
+	margin-left: 56%;
+}
+
+.region{
+	text-align: left;
+	font-weight: normal;
+	padding-top: -10px;
+}
+
+.price1{
+	text-align: right;
+	color: rgba(0,0,0,0.5);
+	padding-right: 3%;
+	font-weight: normal;
+}
+
+.price{
+	text-align: right;
+	color: rgba(0,0,0,0.5);
+	padding-right: 3%;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.total{
+	text-align: right;
+	color: #a365f6;
+	padding-right: 3%;
+	font-weight: bold;
+	background-color: white;
+	font-size: 18pt;
+}
+.column2{
+
+background-color: rgba(0,0,0,0.2);
+	
+}
+
+.description{
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+}
+
+.submit{
+	padding-top:2%;
+	margin-left: 20%;
+}
+
+.btnSubmit{
+	width: 76%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	background-color: #04AA6D;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	font-size: 13pt;
+}
+
+footer {
+  height: 100px;
+  margin-left: 35%;
+  padding-top: 10%;
+
+}
+
+footer a {
+  font-size: 14px;
+   margin: 0 20px 20px;
+}
+
